@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sayda.Core.UnitOfWork", "Sayda.Core.UnitOfWork.csproj", "{EDDCA125-1F6A-420B-8A2A-94D63AB94B16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDDCA125-1F6A-420B-8A2A-94D63AB94B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDCA125-1F6A-420B-8A2A-94D63AB94B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDCA125-1F6A-420B-8A2A-94D63AB94B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDCA125-1F6A-420B-8A2A-94D63AB94B16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB5BE207-7A79-4267-8B8B-2459608368B1}
+	EndGlobalSection
+EndGlobal
