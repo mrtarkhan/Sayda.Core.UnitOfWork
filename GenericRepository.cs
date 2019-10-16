@@ -11,7 +11,7 @@ namespace Sayda.Core.UnitOfWork
 		public GenericRepository (IUnitOfWork unitOfWork)
 		{
 			unitOfWork.Register(this);
-			_entities = unitOfWork.GetCollection<T>();
+			_entities = unitOfWork.GetSession().GetCollection<T>();
 			_session = unitOfWork.GetSession();
 		}
 

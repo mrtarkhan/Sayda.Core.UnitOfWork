@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Sayda.Core.UnitOfWork
 {
@@ -42,10 +40,10 @@ namespace Sayda.Core.UnitOfWork
 		}
 
 
-		public IQueryable<T> GetCollection<T> () where T : class
-		{
-			return _context.GetCollection<T>();
-		}
+		//public IQueryable<T> GetCollection<T> () where T : class
+		//{
+		//	return _context.GetSession().GetCollection<T>();
+		//}
 
 	}
 }

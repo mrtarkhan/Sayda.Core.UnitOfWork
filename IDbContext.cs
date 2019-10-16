@@ -9,7 +9,7 @@ namespace Sayda.Core.UnitOfWork
 	{
 		void SaveChanges ();
 		Task SaveChangesAsync (CancellationToken cancellationToken);
-		IQueryable<T> GetCollection<T> () where T : class;
+		//IQueryable<T> GetCollection<T> () where T : class;
 		ISession GetSession ();
 
 	}
